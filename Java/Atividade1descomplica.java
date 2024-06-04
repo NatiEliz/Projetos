@@ -1,20 +1,22 @@
-// nome da classe
+import javax.swing.*;
+
 class Atividade1descomplica
-{
- // modúlo principal com a entrada pela linha de comando
-    public static void main (String entrada[])
+
+{  
+    public static void main(String entrada[])
     {
-        //declarar as variaveis
-        int inteiro = 34;
-        char caracter = 'F';
-        double real = 1.58;
-        String frase = "Natália Eliz";
-        boolean VF = true;
+        int n1, n2, div;
+        Double potencia;
+        String msg = "";
         
-        if (VF == true)
-        {
-            System.out.println("Eu sou a(o) " + frase + ", tenho " + inteiro + " anos e tenho " + real + "m de altura.");
-        }
-        System.exit(0);
+        n1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro: "));
+        n2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo número inteiro: "));
+        
+        div = n1 / n2;
+        potencia = Math.pow(n1,n2);
+        
+        msg = msg + ("O resultado de " +n1+ " / " +n2+ " é = " +div+ "\n");
+        msg = msg + ("A potência de " +n1+ " pelo " +n2+ " é = " + potencia);
+        JOptionPane.showMessageDialog(null, msg);
     }
 }
