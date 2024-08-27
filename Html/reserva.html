@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2ª Atividade na Prática</title>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Formulário de Reserva</h1><hr>
+        </center>
+    </header>
+    <h3>
+        Realize aqui, a sua Viagem dos Sonhos!!!
+        <hr>
+    </h3>
+    <br>
+    <form method = "GET" action="">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>   
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Serviços Desejados</legend>
+            <input type="checkbox" id="passagens" name="servicos[]" value="passagens">
+            <label for="passagens">Compra de Passagens</label><br>
+            <input type="checkbox" id="hospedagem" name="servicos[]" value="hospedagem">
+            <label for="hospedagem">Reserva de Hospedagem</label><br>
+            <input type="checkbox" id="veiculo" name="servicos[]" value="veiculo">
+            <label for="veiculo">Aluguel de Veículos</label>
+        </fieldset><br>
+        <fieldset>
+            <legend>Forma de Pagamento</legend>
+            <input type="radio" id="cartao" name="pagamento" value="cartao">
+            <label for="cartao">Cartão de Crédito</label><br>
+            <input type="radio" id="boleto" name="pagamento" value="boleto">
+            <label for="boleto">Boleto</label><br>
+            <input type="radio" id="pix" name="pagamento" value="pix">
+            <label for="pix">PIX</label>   
+        </fieldset><br>
+        <fieldset>
+            <legend>Prazo de Pagamento</legend>
+            <select name="prazo">
+                <option value="avista">À Vista</option>
+                <option value="05x">Cinco Vezes sem juros</option>
+                <option value="10x">Dez Vezes com juros</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="observacao">Observações ou Solicitações:</label><br>
+            <textarea id="observacao" name="observacao"></textarea><br><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="enviar">
+    </form>
+    <br><br>
+    <br><br>
+    <footer>
+        Desenvolvido por: Natália <br>
+        Data: 23/05/2024 <br>
+        Atividade: Formulário de Reserva de Viagem Avançado
+    </footer>
+</body>
+</html>
