@@ -1,0 +1,66 @@
+body{
+    background: whitesmoke;
+    font-size: 30px;
+    text-transform:initial;
+    color: #303030;
+    text-align: center;
+    margin: 50px;
+}
+
+header h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 90px;
+    background: #e4c69f;
+    text-align: center;
+    margin: 50px;
+}
+
+div p{
+    font: 15px;
+    text-transform: uppercase;
+    color: black;
+    text-align:initial;
+}
+
+div h2{
+    background: #e4c69f;
+    text-align: center;
+    margin: center;
+}
+
+section div p{
+    font: 15px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
+
+section p{
+    font-weight: 10px;
+    text-transform:initial;
+    color: black;
+    text-align:center;
+    margin: 50px;
+}
+section form{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    text-align:start;
+    margin: 50px;
+}
+
+p{
+    margin: 50px;
+}
+
+
+footer{
+    font-size: 5px;
+    text-transform:uppercase;
+    color: gray;
+    text-align: center;
+}
