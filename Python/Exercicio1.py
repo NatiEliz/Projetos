@@ -13,7 +13,7 @@ else:
         proximo = fibonacci[- 1] +fibonacci[- 2]
         fibonacci.append(proximo)
         
-    print ('Olá, segue a sua sequencia de Fibonacci:')
+    print ("Olá, segue a sua sequencia de Fibonacci:")
     print("")
     print (fibonacci)
     print("")
